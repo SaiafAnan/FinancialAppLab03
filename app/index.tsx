@@ -26,11 +26,11 @@ const tabBarIcon = (route: string, focused: boolean, color: string, size: number
   let iconName: keyof typeof MaterialIcons.glyphMap;
 
   if (route === 'Transactions') {
-    iconName = 'credit-card'; // Ensure this is a valid icon name
+    iconName = 'credit-card'; 
   } else if (route === 'Summary') {
-    iconName = 'pie-chart'; // Ensure this is a valid icon name
+    iconName = 'pie-chart'; 
   } else {
-    iconName = 'error'; // Default case
+    iconName = 'error'; 
   }
 
   return <MaterialIcons name={iconName} size={size} color={color} />;

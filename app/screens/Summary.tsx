@@ -27,14 +27,14 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
-    backgroundColor: '#F9FAFB', // light grey background for the whole screen
+    backgroundColor: '#F9FAFB', 
   },
   summaryContainer: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 10,
-    backgroundColor: '#FFFFFF', // white background for each summary
+    backgroundColor: '#FFFFFF', 
     width: '100%',
     padding: 10,
     borderRadius: 5,

@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { View, Text, StyleSheet } from 'react-native';
-import { TransactionDetailProps } from '../navigation/types';  // Ensure this import is correct
+import { TransactionDetailProps } from '../navigation/types';  
 
 const TransactionDetail: React.FC<TransactionDetailProps> = ({ route }) => {
   const { transaction } = route.params;
@@ -30,12 +30,12 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     padding: 20,
-    backgroundColor: '#F9FAFB', // light grey background for the whole screen
+    backgroundColor: '#F9FAFB', 
   },
   detailContainer: {
     flexDirection: 'row',
     marginBottom: 10,
-    backgroundColor: '#FFFFFF', // white background for each detail
+    backgroundColor: '#FFFFFF', 
     width: '100%',
     padding: 10,
     borderRadius: 5,
@@ -53,7 +53,7 @@ const styles = StyleSheet.create({
     marginRight: 10,
   },
   detailText: {
-    flex: 1, // ensures the text uses the available space
+    flex: 1, 
   }
 });
 

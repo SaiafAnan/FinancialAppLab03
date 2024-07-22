@@ -2,10 +2,10 @@
 import React from 'react';
 import { View, Text, FlatList, TouchableOpacity, StyleSheet } from 'react-native';
 import { useNavigation } from '@react-navigation/native';
-import { Transaction, RootStackParamList } from '../navigation/types';  // Ensure this import is correct
+import { Transaction, RootStackParamList } from '../navigation/types';  
 import { NativeStackNavigationProp } from '@react-navigation/native-stack';
 
-// Define the type for navigation prop specifically for this screen
+
 type TransactionsListNavigationProp = NativeStackNavigationProp<RootStackParamList, 'TransactionsList'>;
 
 const transactions: Transaction[] = [
